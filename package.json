@@ -1,0 +1,17 @@
+{
+  "name": "omon-fs",
+  "version": "0.0.1",
+  "description": "File system module for omon",
+  "main": "./lib/fs",
+  "license": "MIT",
+  "scripts": {
+    "eslint": "eslint .",
+    "test": "mocha test/index.js",
+    "test-cov": "istanbul cover _mocha --print both test/index.js"
+  },
+  "author": "Denlly Fan <fan91163@gmail.com>",
+  "engines": {
+    "node": ">=8.10.0"
+  }
+}
+  
